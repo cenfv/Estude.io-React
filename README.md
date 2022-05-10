@@ -7,38 +7,38 @@
 ## Media
 > **Página inicial**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/homepage.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/homepage.png?raw=true">
   </p>
   
 > **Login**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/login.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/login.png?raw=true">
   </p>
   
 > **Anotações**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/anotacoes.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/anotacoes.png?raw=true">
   </p>
 
 > **Adicionar Anotação**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/cadastro_anotacao.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/cadastro_anotacao.png?raw=true">
   </p>
   
 > **Tarefas**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/tarefas.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/tarefas.png?raw=true">
   </p>
 
 > **Adicionar Tarefa**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/cadastro_tarefa.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/cadastro_tarefa.png?raw=true">
   </p>
   
     
 > **Livros**
   <p align="center">
-      <img windth="1080" src="https://github.com/cenfv/Estude.io-React/blob/main/media/livros.png?raw=true">
+      <img width="960" heigth="480" src="https://github.com/cenfv/Estude.io-React/blob/main/media/livros.png?raw=true">
   </p>
 
 > **Adicionar Livro para leitura**
