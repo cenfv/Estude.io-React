@@ -1,0 +1,18 @@
+.card {
+    margin: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 16rem;
+    max-width: 28rem;
+}
+.title-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnDetalhes {
+    margin-left: 8px;   
+    align-items: center;
+    justify-content: center;
+    
+}

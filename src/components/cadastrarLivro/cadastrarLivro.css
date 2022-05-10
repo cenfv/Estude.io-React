@@ -1,0 +1,50 @@
+.div-livro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div__pesquisa {
+  display: flex;
+  flex-direction: column;
+}
+.btn__livro {
+  width: 48px;
+  height: 38px;
+  border-radius: 0px 4px 4px 0px;
+  margin-bottom: 16px;
+}
+.input__livro {
+  border-radius: 4px 0px 0px 4px;
+  width: 25rem;
+  margin-left: -16px;
+  margin-bottom: 16px;
+}
+.livros-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.livro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+  border-radius: 4px;
+  margin: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.livro-content:hover {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

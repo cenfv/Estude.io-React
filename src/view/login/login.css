@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+/* CSS de margens gerados pelo gridlover com line height 1,2 e scale factor 1,25  e adaptado por mim*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /*margin: 0rem 9.375rem 0rem 9.375rem;*/
+  /*background-image: url("../img/login_background.png");*/
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  font-size: 1rem;
+  color: #44494f;
+}
+h1,
+.h1 {
+  font-size: 3rem;
+  line-height: 3.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+h2,
+.h2 {
+  font-size: 1.4375rem;
+  line-height: 2.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+h3,
+.h3 {
+  font-size: 1.1875rem;
+  line-height: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0rem;
+}
+h4,
+.h4 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0rem;
+}
+h5,
+.h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0rem;
+}
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+  margin-top: 0rem;
+  margin-bottom: 1.25rem;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+  line-height: 0;
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+li,
+a,
+button {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul {
+  padding-top: 24px;
+}
+header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  padding: 44px;
+}
+.logo {
+  margin-left: 9.375rem;
+  color: #ffffff;
+  font-weight: bold;
+  color: #2c7aed;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.container__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36rem;
+  height: 42rem;
+  border-radius: 8px;
+  margin-top: 5rem;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div__titulo {
+  margin-top: 32px;
+}
+.div__inputs {
+  width: 80%;
+  margin-right: 36px;
+  margin-left: 36px;
+}
+.input {
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.esqueceu__senha {
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: 32px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main__acessar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  padding: 24px 10rem;
+  background-color: #2c7aed;
+  border-radius: 8px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+.main__acessar:hover {
+  background: linear-gradient(90deg, #2c7aed 2.3%, #4bc3cc 100%);
+}
+.div__social {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.entrar__google {
+  color: #44494f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: left;
+}
+.entrar__google:hover {
+  color: #44494f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  background-color: #f7f6f6;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.entrar__facebook {
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  background-color: #3b5998;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: left;
+}
+.entrar__facebook:hover {
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  background-color: #304A83;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: left;
+}
+.icone__social {
+  margin-top: -2px;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+.criar__conta {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  cursor: pointer;
+}
